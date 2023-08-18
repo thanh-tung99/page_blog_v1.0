@@ -1,0 +1,40 @@
+.our-latest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.our-latest__heading {
+    width: 870px;
+    color: $text-heading;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 116.667%;
+    padding-bottom: 30px;
+
+}
+
+.our-latest__description {
+    color: $text-heading;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 160%;
+    text-transform: uppercase;
+
+}
+
+.our-latest__description--color {
+    color: #7B88A8;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,132 @@
+.news {
+    padding-top: 100px;
+
+}
+
+
+// News Left
+.news__box {
+    padding-bottom: 44px;
+    margin-bottom: 50px;
+    border: 1px solid #E7E5EA;
+
+}
+
+.news__img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.news__content {
+
+}
+
+.news__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 40px 0px 40px;
+
+}
+
+.news__author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.news__avata {
+    width: 32px;
+    height: 32px;
+}
+
+.news__name {
+    width: 238px;
+    color: $text-text;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 160%;
+    text-transform: uppercase;
+    padding-left: 12px;
+
+}
+
+.news__times {
+    color: $text-text;
+    text-align: right;
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 171.429%;
+
+}
+
+
+.news__title {
+
+}
+
+.news__heading {
+    color: $text-heading;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 127.778%;
+    padding: 30px 40px;
+
+}
+
+.news__link {
+    text-decoration: none;
+    color: $text-heading;
+
+}
+
+.news__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.news__description {
+    color: $text-text;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5%;
+    padding: 0px 40px 40px 40px;
+
+}
+
+
+.news__button {
+    padding-left: 40px;
+    border-radius: 5px;
+}
+
+
+.btn__readmore {
+    color: $colorPrimary;
+    width: 140px;
+    height: 48px;
+    padding: 13px 24px;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 171.429%;
+    text-transform: uppercase;
+    background-color: $colorSecondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.btn__readmore:hover {
+    background-color: #85a0fa;
+    cursor: pointer;
+
+}

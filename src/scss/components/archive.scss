@@ -1,0 +1,58 @@
+.archive {
+    margin-top: 30px;
+    background-color: #F8FAFC;
+    border-radius: 5px;
+    padding: 20px 30px 30px 30px;
+
+}
+
+.archive__heading {
+    color: $text-heading;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 155.556%;
+    padding-bottom: 28px;
+
+}
+
+.archive__box {
+    background-color: $colorPrimary;
+    border-radius: 5px;
+    border: 1px solid #E7E5EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.archive__input {
+    color: $text-text;
+    padding: 12px 4px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5%;
+    border: none;
+    outline: none;
+    margin-left: 14px;
+    width: 100%;
+
+}
+
+.archive__icon {
+    font-size: 14px;
+    color: $text-text;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorPrimary;
+    border: none;
+    outline: none;
+
+}
+
+.archive__icon:hover {
+    cursor: pointer;
+}

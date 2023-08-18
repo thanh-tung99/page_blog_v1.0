@@ -1,0 +1,35 @@
+// Abstracts
+@import './abstracts/variables.scss';
+
+// Base
+@import './base/normalize.scss';
+@import './base/reset.scss';
+
+// Layout
+@import './layout/grid.scss';
+
+// Components
+@import './components/pageHeader.scss';
+@import './components/ourLatest.scss';
+@import './components/content.scss';
+@import './components/news.scss';
+@import './components/pagination.scss';
+
+@import './components/search.scss';
+@import './components/latestnews.scss';
+@import './components/categories.scss';
+@import './components/tags.scss';
+@import './components/archive.scss';
+@import './components/subcribe.scss';
+
+@import './components/visitBlog.scss';
+
+@import './components/footer.scss';
+
+
+
+
+
+
+
+

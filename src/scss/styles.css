@@ -313,7 +313,7 @@ template {
 
 :root {
   --grid: 12;
-  --grid-container-width: 1700px;
+  --grid-container-width: 1200px;
   --grid-container-gap: 15px;
   --grid-col-gap-vertical: 30px;
   --grid-col-gap-horizontal: 30px;
@@ -403,7 +403,6 @@ h6 {
   }
 }
 .page-header {
-  position: relative;
   height: 500px;
 }
 
@@ -450,7 +449,6 @@ h6 {
 
 .page-header__menu {
   display: flex;
-  width: 470px;
   justify-content: center;
   align-items: center;
 }
@@ -507,6 +505,9 @@ h6 {
 
 .active {
   position: relative;
+}
+
+.active a {
   color: #2D3958;
 }
 
@@ -537,6 +538,7 @@ h6 {
   color: #7B88A8;
   font-size: 20px;
   cursor: pointer;
+  transition: all 0.1s;
 }
 
 .page-header__search:hover {
@@ -552,6 +554,7 @@ h6 {
   font-size: 20px;
   cursor: pointer;
   position: relative;
+  transition: all 0.1s;
 }
 
 .page-header__bag:hover {
@@ -587,6 +590,7 @@ h6 {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 0.4s;
 }
 
 .btn-signup:hover {
@@ -597,12 +601,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(100%);
 }
 
 .our-latest__heading {
@@ -616,6 +615,8 @@ h6 {
 }
 
 .our-latest__description {
+  width: 870px;
+  height: 18px;
   color: #2D3958;
   text-align: center;
   font-family: Outfit;
@@ -627,6 +628,10 @@ h6 {
 
 .our-latest__description--color {
   color: #7B88A8;
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
   text-transform: uppercase;
 }
 
@@ -720,7 +725,7 @@ h6 {
   border-radius: 5px;
 }
 
-.btn__readmore {
+.news__button--readmore {
   color: #FFF;
   width: 140px;
   height: 48px;
@@ -736,9 +741,10 @@ h6 {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  transition: 0.3s;
 }
 
-.btn__readmore:hover {
+.news__button--readmore:hover {
   background-color: #85a0fa;
   cursor: pointer;
 }
@@ -1104,6 +1110,7 @@ h6 {
   text-transform: uppercase;
   background-color: #886CFF;
   border-radius: 5px;
+  transition: 0.3s;
 }
 
 .subscribe__btn:hover {
@@ -1113,15 +1120,13 @@ h6 {
 
 .visit {
   position: relative;
-  height: 500px;
-  z-index: 1;
+  padding-bottom: 130px;
 }
 
 .visit__background {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
   width: 100%;
   height: 100%;
 }
@@ -1136,12 +1141,8 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  padding-top: 40px;
+  transform: translateY(10%);
 }
 
 .visit-blog__description {
@@ -1202,6 +1203,7 @@ h6 {
   line-height: 171.429%;
   text-transform: uppercase;
   margin-left: 8px;
+  transition: 0.3s;
 }
 
 .visit-blog__btn:hover {
@@ -1211,9 +1213,7 @@ h6 {
 
 .footer {
   background-color: #292F3A;
-  height: 546px;
-  position: relative;
-  z-index: 1;
+  padding: 100px 0px 20px 0px;
 }
 
 .footer__logo {
@@ -1263,6 +1263,7 @@ h6 {
   font-weight: 500;
   line-height: 171.429%;
   text-transform: uppercase;
+  transition: all 0.3s;
 }
 
 .footer__link:hover {
@@ -1310,6 +1311,7 @@ h6 {
   line-height: 171.429%;
   text-transform: uppercase;
   margin-left: 8px;
+  transition: all 0.3s;
 }
 
 .footer__btn:hover {
@@ -1351,6 +1353,7 @@ h6 {
   font-size: 54px;
   color: #4F77FF;
   padding: 0px 6px;
+  transition: all 0.3s;
 }
 
 .footer__socials-link:hover {

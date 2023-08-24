@@ -3,19 +3,20 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding: 50px 0 100px;
     
     @media (max-width: 575px) {
         
     }
     
     @media (min-width: 575px) {
+        padding: 100px 0 150px;
         
     }
     
     @media (min-width: 768px) {
-        transform: translateY(50%);
-      
-            
+        padding: 150px 0 200px;
+              
     }
         
     @media (min-width: 992px) {
@@ -28,7 +29,7 @@
 .our-latest__heading {
     color: $text-heading;
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 110%;
     
@@ -37,7 +38,6 @@
     }
         
     @media (min-width: 575px) {
-        font-size: 30px;
         line-height: 116.667%;
         padding-bottom: 30px;
         

@@ -1,14 +1,6 @@
 // Tablet and Mobile menu
 .nav-mobile{
-    
-
-}
-
-.nav__bars-input {
     display: block;
-    font-size: 16px;
-    color: #2D3958;
-    width: 88px;
     
     @media (max-width: 575px) {
         
@@ -26,6 +18,38 @@
         display: none;
             
     }
+
+}
+
+.nav__bars-input {
+    display: block;
+    font-size: 16px;
+    color: #2D3958;
+    width: 88px;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+
+    }
+        
+    @media (min-width: 768px) {
+            
+    }
+        
+    @media (min-width: 992px) {
+        display: none;
+            
+    }
+
+}
+
+.nav__bars-input:hover {
+    color: #4F77FF;
 
 }
 

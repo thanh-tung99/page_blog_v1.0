@@ -4,7 +4,26 @@
     flex-direction: column;
     background-color: #F8FAFC;
     border-radius: 5px;
-    padding: 20px 30px 30px 30px;
+    padding: 20px 6px 20px 30px;
+    
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+        
+    }
+    
+    @media (min-width: 768px) {
+        padding: 20px 30px 30px 30px;
+      
+            
+    }
+        
+    @media (min-width: 992px) {
+            
+            
+    }
 
 }
 
@@ -38,12 +57,30 @@
     color:  #FFF;
     text-align: center;
     font-family: DM Sans;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 200%;
     background-color: $colorSecondary;
     border-radius: 5px;
-    padding: 4px 12px;
+    padding: 4px 10px;
     margin: 4px;
+    
+    @media (max-width: 575px) {  
+        
+    }
+        
+    @media (min-width: 575px) {
+            
+    }
+        
+    @media (min-width: 768px) {
+        font-size: 12px;
+        padding: 4px 12px;
+            
+    }
+        
+    @media (min-width: 992px) {
+            
+    }
 
 }

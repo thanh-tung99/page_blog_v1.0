@@ -695,6 +695,8 @@ h6 {
   margin-bottom: 50px;
   border: 1px solid #E7E5EA;
   border-radius: 5px;
+  text-decoration: none;
+  display: block;
 }
 
 .news__img {
@@ -825,6 +827,10 @@ h6 {
 .news__button--readmore:hover {
   background-color: #85a0fa;
   cursor: pointer;
+}
+
+.news__button .news__link:hover {
+  text-decoration: none;
 }
 
 .news__pagination {

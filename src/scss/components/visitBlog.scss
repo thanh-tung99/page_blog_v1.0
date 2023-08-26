@@ -11,7 +11,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 106px 30px 106px 30px;
+    padding: 60px 10px;
+    
+    @media (max-width: 575px) {
+        
+    }
+    
+    @media (min-width: 575px) {
+        
+    }
+    
+    @media (min-width: 768px) {
+        padding: 106px 30px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 
 }
@@ -51,7 +72,7 @@
     line-height: 116%;
     font-weight: 500;
     padding-top: 30px;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     text-align: center;
     font-family: Outfit;
 
@@ -61,6 +82,8 @@
         
     @media (min-width: 575px) {
         font-size: 40px;
+        padding-bottom: 70px;
+
             
     }
         
@@ -85,6 +108,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 
 }
 
@@ -104,7 +129,6 @@
 
 .visit-blog__btn {  
     height: 48px;
-    padding: 13px 24px;   
     border-radius: 5px;
     background-color:  #4F77FF;
     color: #FFF;
@@ -114,8 +138,29 @@
     font-weight: 500;
     line-height: 171.429%;
     text-transform: uppercase;
-    margin-left: 8px;
     transition: 0.3s;
+    padding: 13px 80px;   
+    
+    @media (max-width: 575px) {
+        
+    }
+    
+    @media (min-width: 575px) {
+        
+    }
+    
+    @media (min-width: 768px) {
+        padding: 13px 24px;   
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 

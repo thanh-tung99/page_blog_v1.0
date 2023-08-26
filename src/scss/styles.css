@@ -683,13 +683,21 @@ h6 {
 
 .content {
   background-color: #FFF;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
-
+@media (min-width: 768px) {
+  .content {
+    padding-bottom: 100px;
+  }
+}
 .news {
-  padding-top: 100px;
+  padding-top: 50px;
 }
-
+@media (min-width: 768px) {
+  .news {
+    padding-top: 100px;
+  }
+}
 .news__box {
   padding-bottom: 44px;
   margin-bottom: 50px;
@@ -708,9 +716,13 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 26px 40px 0px 40px;
+  padding: 26px 10px 0px 10px;
 }
-
+@media (min-width: 768px) {
+  .news__header {
+    padding: 26px 40px 0px 40px;
+  }
+}
 .news__author {
   display: flex;
   align-items: center;
@@ -764,11 +776,12 @@ h6 {
   font-size: 20px;
   font-weight: 500;
   line-height: 127.778%;
-  padding: 30px 40px;
+  padding: 20px 10px;
 }
 @media (min-width: 768px) {
   .news__heading {
     font-size: 36px;
+    padding: 30px 40px;
   }
 }
 .news__link {
@@ -787,18 +800,23 @@ h6 {
   font-size: 14px;
   font-weight: 400;
   line-height: 162.5%;
-  padding: 0px 40px 40px 40px;
+  padding: 0px 10px 30px 10px;
 }
 @media (min-width: 768px) {
   .news__description {
+    padding: 0px 40px 40px 40px;
     font-size: 16px;
   }
 }
 .news__button {
-  padding-left: 40px;
   border-radius: 5px;
+  padding-left: 10px;
 }
-
+@media (min-width: 768px) {
+  .news__button {
+    padding-left: 40px;
+  }
+}
 .news__button--readmore {
   color: #FFF;
   width: 124px;
@@ -1171,7 +1189,7 @@ h6 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 90px 12px;
+  padding: 150px 10px;
 }
 @media (min-width: 768px) {
   .subscribe__title {
@@ -1182,22 +1200,18 @@ h6 {
   color: #FFF;
   text-align: center;
   font-family: Outfit;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 145.455%;
   margin-bottom: 40px;
 }
-@media (min-width: 768px) {
-  .subscribe__heading {
-    font-size: 22px;
-  }
-}
+
 .subscribe__btn {
   padding: 14px 20px;
   color: #FFF;
   text-align: center;
   font-family: Outfit;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 171.429%;
   text-transform: uppercase;
@@ -1205,11 +1219,7 @@ h6 {
   border-radius: 5px;
   transition: all 0.3s;
 }
-@media (min-width: 768px) {
-  .subscribe__btn {
-    font-size: 14px;
-  }
-}
+
 .subscribe__btn:hover {
   cursor: pointer;
   background-color: #b6a6fc;
@@ -1226,9 +1236,13 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 106px 30px 106px 30px;
+  padding: 60px 10px;
 }
-
+@media (min-width: 768px) {
+  .visit-blog {
+    padding: 106px 30px;
+  }
+}
 .visit-blog__description {
   color: #7B88A8;
   text-align: center;
@@ -1259,13 +1273,14 @@ h6 {
   line-height: 116%;
   font-weight: 500;
   padding-top: 30px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   text-align: center;
   font-family: Outfit;
 }
 @media (min-width: 575px) {
   .visit-blog__heading {
     font-size: 40px;
+    padding-bottom: 70px;
   }
 }
 @media (min-width: 768px) {
@@ -1287,6 +1302,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .visit-blog__input {
@@ -1304,7 +1321,6 @@ h6 {
 
 .visit-blog__btn {
   height: 48px;
-  padding: 13px 24px;
   border-radius: 5px;
   background-color: #4F77FF;
   color: #FFF;
@@ -1314,10 +1330,14 @@ h6 {
   font-weight: 500;
   line-height: 171.429%;
   text-transform: uppercase;
-  margin-left: 8px;
   transition: 0.3s;
+  padding: 13px 80px;
 }
-
+@media (min-width: 768px) {
+  .visit-blog__btn {
+    padding: 13px 24px;
+  }
+}
 .visit-blog__btn:hover {
   cursor: pointer;
   background-color: #85a0fa;

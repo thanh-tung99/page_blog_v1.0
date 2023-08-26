@@ -2,7 +2,7 @@
   margin-top: 30px;
   border-radius: 5px;
   width: 100%;
-  background-image: linear-gradient(0, rgba(50, 19, 112, 0.7), rgba(50, 19, 112, 0.7)), url(../../../assets/img/img_subsribe.png);
+  background-image: linear-gradient(0, rgba(50, 19, 112, 0.7), rgba(50, 19, 112, 0.7)), url(../../assets/img/img_subsribe.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
